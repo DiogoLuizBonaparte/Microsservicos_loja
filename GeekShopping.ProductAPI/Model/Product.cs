@@ -8,10 +8,11 @@ namespace GeekShopping.ProductAPI.Model
 {
     public class Product : BaseEntity
     {
+       
         [Column("name")]
         [Required]
         [StringLength(150)]
-        public string name { get; set;}
+        public string Name { get; set;}
 
         [Column("price")]
         [Required]
@@ -20,15 +21,15 @@ namespace GeekShopping.ProductAPI.Model
 
         [Column("description")]
         [StringLength(150)]
-        public string description { get; set; }
+        public string Description { get; set; }
 
         [Column("categoru_name")]
         [StringLength(50)]
-        public string categoryName { get; set; }
+        public string CategoryName { get; set; }
 
         [Column("image_url")]
         [StringLength(300)]
-        public String imageURL { get; set; }
+        public String ImageURL { get; set; }
 
     }
 }

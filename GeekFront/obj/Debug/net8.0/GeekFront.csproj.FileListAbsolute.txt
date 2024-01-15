@@ -28,3 +28,4 @@ C:\Users\Bonaparte\source\repos\Microsservicos\GeekFront\obj\Debug\net8.0\refint
 C:\Users\Bonaparte\source\repos\Microsservicos\GeekFront\obj\Debug\net8.0\GeekFront.pdb
 C:\Users\Bonaparte\source\repos\Microsservicos\GeekFront\obj\Debug\net8.0\GeekFront.genruntimeconfig.cache
 C:\Users\Bonaparte\source\repos\Microsservicos\GeekFront\obj\Debug\net8.0\ref\GeekFront.dll
+C:\Users\Bonaparte\source\repos\Microsservicos\GeekFront\obj\Debug\net8.0\GeekFront.sourcelink.json

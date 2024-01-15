@@ -11,10 +11,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connection = builder.Configuration["MySQLConnection:MySQLConnectionString"];
-
+//var connection = builder.Configuration["MySQLConnection:MySQLConnectionString"];
+/*
 builder.Services.AddDbContext<MySQLContext>(options => options.UseMySql(connection,
-    new MySqlServerVersion(new Version(5, 0, 35)))) ;
+    new MySqlServerVersion(new Version(5, 0, 35))));*/
+
+var connection = builder.Configuration["SQLConnection:SQLConnectionString"];
+
+builder.Services.AddDbContext<MySQLContext>(
+        options => options.UseSqlServer("Server=DESKTOP-71URVSU\\SQLEXPRESS;Database=geek_shopping_product_api;Uid=Bonapjhjhjarte;Password=1010;"));
+        
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
