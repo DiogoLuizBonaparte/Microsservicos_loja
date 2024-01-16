@@ -10,12 +10,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<SQLContext>(
         options => options.UseSqlServer("Server=DESKTOP-71URVSU\\SQLEXPRESS;" +
-        "Database=geek_db;Integrated Security=SSPI;" +
+        "Database=geek_product;Integrated Security=SSPI;" +
         " TrustServerCertificate=true"));
 
 
  
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

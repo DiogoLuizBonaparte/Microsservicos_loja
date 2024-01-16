@@ -11,8 +11,8 @@ using mgtt.Model.Context;
 namespace mgtt.Migrations
 {
     [DbContext(typeof(SQLContext))]
-    [Migration("20240114212641_teste7")]
-    partial class teste7
+    [Migration("20240116011909_product")]
+    partial class product
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,19 +26,28 @@ namespace mgtt.Migrations
 
             modelBuilder.Entity("mgtt.Model.Product", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<long>("id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
+                        .HasColumnType("bigint")
+                        .HasColumnName("id");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("descripion");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("name");
 
-                    b.HasKey("Id");
+                    b.HasKey("id");
 
-                    b.ToTable("Products");
+                    b.ToTable("product");
                 });
 #pragma warning restore 612, 618
         }

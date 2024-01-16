@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/qlttdtIxQF95hh/mdSpYgxiDpeF79CK4a0zbz057cJxZdpCvC/l9+dI70r89Av5WEJib5xt1tUtrvRuWbRW6A==",
+  "dgSpecHash": "v99gT5llmcUnMWHfuLv5Ixv5UMOg8UmY+yQa8+6E9WXFXN4OC75AOTeVO98yrTlvNNOBWRLkmD4p6Sk/Pw2bUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bonaparte\\source\\repos\\Microsservicos\\mgtt\\mgtt.csproj",
+  "projectFilePath": "C:\\Users\\Bonaparte\\source\\repos\\Microsservicos\\mgtt\\Geek_Product.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bonaparte\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Bonaparte\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

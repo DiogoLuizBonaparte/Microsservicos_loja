@@ -3926,9 +3926,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bonaparte\\source\\repos\\Microsservicos\\mgtt\\mgtt.csproj",
-      "projectName": "mgtt",
-      "projectPath": "C:\\Users\\Bonaparte\\source\\repos\\Microsservicos\\mgtt\\mgtt.csproj",
+      "projectUniqueName": "C:\\Users\\Bonaparte\\source\\repos\\Microsservicos\\mgtt\\Geek_Product.csproj",
+      "projectName": "Geek_Product",
+      "projectPath": "C:\\Users\\Bonaparte\\source\\repos\\Microsservicos\\mgtt\\Geek_Product.csproj",
       "packagesPath": "C:\\Users\\Bonaparte\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bonaparte\\source\\repos\\Microsservicos\\mgtt\\obj\\",
       "projectStyle": "PackageReference",

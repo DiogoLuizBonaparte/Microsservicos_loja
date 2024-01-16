@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mgt", "Mgt", "{475293D1-FF34-4DB2-ADA6-A9FA4C2F518E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{475293D1-FF34-4DB2-ADA6-A9FA4C2F518E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mgtt", "mgtt\mgtt.csproj", "{76D878F2-22B0-4203-8D9A-CED5A5256CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geek_Product", "mgtt\Geek_Product.csproj", "{76D878F2-22B0-4203-8D9A-CED5A5256CED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
