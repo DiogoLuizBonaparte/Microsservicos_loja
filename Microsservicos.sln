@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{47
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geek_Product", "mgtt\Geek_Product.csproj", "{76D878F2-22B0-4203-8D9A-CED5A5256CED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{34682671-8FA4-4115-9946-7F8291F00BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontGeek", "FrontGeek\FrontGeek.csproj", "{3F7F7C7B-CA2A-48DA-A119-95E8AA0515DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{76D878F2-22B0-4203-8D9A-CED5A5256CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D878F2-22B0-4203-8D9A-CED5A5256CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D878F2-22B0-4203-8D9A-CED5A5256CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7F7C7B-CA2A-48DA-A119-95E8AA0515DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7F7C7B-CA2A-48DA-A119-95E8AA0515DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7F7C7B-CA2A-48DA-A119-95E8AA0515DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7F7C7B-CA2A-48DA-A119-95E8AA0515DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{76D878F2-22B0-4203-8D9A-CED5A5256CED} = {475293D1-FF34-4DB2-ADA6-A9FA4C2F518E}
+		{3F7F7C7B-CA2A-48DA-A119-95E8AA0515DA} = {34682671-8FA4-4115-9946-7F8291F00BEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBF419A3-0398-4A85-A2EE-8FC42EDB498B}
