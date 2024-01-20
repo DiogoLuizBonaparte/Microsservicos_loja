@@ -1,5 +1,8 @@
+using AutoMapper;
+using Geek_Product.Config;
 using mgtt.Model.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +16,12 @@ builder.Services.AddDbContext<SQLContext>(
         "Database=geek_product;Integrated Security=SSPI;" +
         " TrustServerCertificate=true"));
 
+IMapper mapper = MappingConfig.ResgisterMap().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
- 
+
+
 var app = builder.Build();
 
 
