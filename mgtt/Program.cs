@@ -15,6 +15,7 @@ builder.Services.AddDbContext<SQLContext>(
         options => options.UseSqlServer("Server=DESKTOP-71URVSU\\SQLEXPRESS;" +
         "Database=geek_product;Integrated Security=SSPI;" +
         " TrustServerCertificate=true"));
+builder.Services.AddControllers();
 
 IMapper mapper = MappingConfig.ResgisterMap().CreateMapper();
 builder.Services.AddSingleton(mapper);
