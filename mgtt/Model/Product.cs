@@ -17,8 +17,11 @@ namespace mgtt.Model
         [Required]
         [StringLength(50)]
         public string Description { get; set; }
+        public long Id { get; internal set; }
 
-
-
+        public static implicit operator List<object>(Product? v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
